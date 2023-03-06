@@ -1,0 +1,116 @@
+apiVersion: v1
+entries:
+  cxserver:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-03-06T14:40:05.5548079+07:00"
+    description: A Helm chart for Kubernetes
+    digest: 3b2dceae27f53501b6ea7f0ed05b8efa6888fec718e93c5d1ecef01bfd8f4988
+    name: cxserver
+    type: application
+    urls:
+    - cxserver-0.1.0.tgz
+    version: 0.1.0
+  haproxy:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-03-06T14:40:05.5563649+07:00"
+    description: A Helm chart for Kubernetes
+    digest: 70076e4a9ecbc75ccf8914163c8226d24d483d4849a7b7657b0abd6afcfc2dca
+    name: haproxy
+    type: application
+    urls:
+    - haproxy-0.1.0.tgz
+    version: 0.1.0
+  ignite-twx:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-03-06T14:40:05.5568769+07:00"
+    description: A Helm chart for Kubernetes
+    digest: ba53f14d18ea8949b713a3e954af56ba7ef30527d0dcaea52d08f974518ff104
+    name: ignite-twx
+    type: application
+    urls:
+    - ignite-twx-0.1.0.tgz
+    version: 0.1.0
+  platform:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-03-06T14:40:05.5580049+07:00"
+    description: A Helm chart for Kubernetes
+    digest: 430f78cd280fb7e3148d2cbbf9f4f20cea00a1cd6fa91913613af5add297301f
+    name: platform
+    type: application
+    urls:
+    - platform-0.1.0.tgz
+    version: 0.1.0
+  postgresql-ha:
+  - annotations:
+      category: Database
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 15.2.0
+    created: "2023-03-06T14:40:05.5614291+07:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: This PostgreSQL cluster solution includes the PostgreSQL replication
+      manager, an open-source tool for managing replication and failover on PostgreSQL
+      clusters.
+    digest: 3ab67628f61e699e8e7cd093628b0a16d97dfd7678ab0b93550f101afb11fb6c
+    home: https://github.com/bitnami/charts/tree/main/bitnami/postgresql-ha
+    icon: https://bitnami.com/assets/stacks/postgresql/img/postgresql-stack-220x234.png
+    keywords:
+    - postgresql
+    - repmgr
+    - pgpool
+    - postgres
+    - database
+    - sql
+    - replication
+    - cluster
+    - high availability
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami/charts
+    name: postgresql-ha
+    sources:
+    - https://github.com/bitnami/containers/tree/main/bitnami/postgresql
+    - https://www.postgresql.org/
+    urls:
+    - postgresql-ha-11.1.4.tgz
+    version: 11.1.4
+  zookeeper:
+  - annotations:
+      category: Infrastructure
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 3.8.1
+    created: "2023-03-06T14:40:05.5655029+07:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: Apache ZooKeeper provides a reliable, centralized register of configuration
+      data and services for distributed applications.
+    digest: bf9fe090cde329bf7bf2378fef5229cb571cba0e10149fd4c15f8e1840afa013
+    home: https://github.com/bitnami/charts/tree/main/bitnami/zookeeper
+    icon: https://bitnami.com/assets/stacks/zookeeper/img/zookeeper-stack-220x234.png
+    keywords:
+    - zookeeper
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami/charts
+    name: zookeeper
+    sources:
+    - https://github.com/bitnami/containers/tree/main/bitnami/zookeeper
+    - https://zookeeper.apache.org/
+    urls:
+    - zookeeper-11.1.4.tgz
+    version: 11.1.4
+generated: "2023-03-06T14:40:05.5534898+07:00"
